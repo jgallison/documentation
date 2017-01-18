@@ -138,7 +138,7 @@ Repeat the above procedure to update the remaining nodes in the cluster.  Once t
 
       # systemctl restart mysql
 
-#. Using the database clinet, check that the EVS Protocol is using version 1 by running the new :ref:`wsrep_evs_state <wsrep_evs_state>` status variable.
+#. Using the database client, check that the EVS Protocol is using version 1 by running the new :ref:`wsrep_evs_state <wsrep_evs_state>` status variable.
 
    .. code-block:: mysql
 
